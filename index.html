@@ -139,7 +139,21 @@
           <h2>Education</h2>
         </div>
 
-            {% for education in resume.education %}
+        <script type="text/javascript">
+          alert("Incrieble");
+
+          var Casa = 
+            {
+              "color":"Cafe",
+              "Fondo":"20M",
+              "Alto":"5m"
+            }
+          
+          console.log(Casa);
+        </script>
+
+
+            <!-- {% for education in resume.education %}
             <div class="resume-item">
               <h4>{{ education.title }}</h4>
               <h5>{{ education.startDate | date('Y')}} - {{ education.endDate | date('Y')}}</h5>
@@ -147,7 +161,8 @@
               <p>{{ education.introduction }}</p>
             </div>
             {% endfor %}                        
-          </div>
+          </div> -->
+
     </section><!-- End Education Section -->
     
         <!-- ======= Experience Section ======= -->
@@ -172,13 +187,13 @@
           </div>
     </section><!-- End Experience Section -->
     
-    <!-- Download PDF -->
+    <!-- ======= Download PDF ======= -->
     <div class="container" data-aos="fade-up">
       <p><h4>Click on the button to download CV as PDF</h4>
-      <a href="http://drive.google.com/uc?export=view&id=1-rdVhWoCx6fww9RZZjYrrlqKjxS99-LC" download>
+      <a href="./assets/cv_jorge_cruz.pdf" download>
         <img src="http://drive.google.com/uc?export=view&id=1GVrnZp7Zb7YDcKnEE9_Qty_6ooNytmLM" width="300" height="133">
       </a> <p>
-    </div>
+    </div> <!-- End Download PDF -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

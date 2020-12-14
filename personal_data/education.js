@@ -1,4 +1,4 @@
-const xhttp = new XMLHttpRequest();
+var xhttp = new XMLHttpRequest();
 xhttp.open('GET', 'personal_data/education.json', true);
 xhttp.send();
 xhttp.onreadystatechange = function (){

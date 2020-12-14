@@ -1,4 +1,3 @@
-
 const xhttp = new XMLHttpRequest();
 xhttp.open('GET', 'personal_data/education.json', true);
 xhttp.send();

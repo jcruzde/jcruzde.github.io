@@ -1,6 +1,6 @@
 
 const xhttp = new XMLHttpRequest();
-xhttp.open('GET', 'catalogo.json', true);
+xhttp.open('GET', 'education.json', true);
 xhttp.send();
 xhttp.onreadystatechange = function (){
     if(this.readyState == 4 && this.status == 200){
@@ -12,9 +12,9 @@ xhttp.onreadystatechange = function (){
             res.innerHTML += `
                 <div class="resume-item">
                 <h4>${item.titulo}</h4>
-                <h5>${item.startDate} - ${item.endDate}</h5>
+                <h5>${item.startDate} - ${item.endDate}}</h5>
                 <p><em>${item.institution}</em></p>
-                 </div>
+                </div>
             `
         }
     

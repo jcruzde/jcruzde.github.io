@@ -1,12 +1,10 @@
 [
     {
         "titulo": "Burlesque",
-        "artisa": "Bob Dylan"
+        "artista": "Bob Dylan"
     },
     {
         "titulo": "Hola",
         "artista": "Juan Antonio"
     }
-
-
 ]

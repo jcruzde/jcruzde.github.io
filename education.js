@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function (){
             res.innerHTML += `
                 <div class="resume-item">
                 <h4>${item.titulo}</h4>
-                <h5>${item.startDate} - ${item.endDate}}</h5>
+                <h5>${item.startDate} - ${item.endDate}</h5>
                 <p><em>${item.institution}</em></p>
                  </div>
             `

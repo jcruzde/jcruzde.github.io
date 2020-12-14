@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function (){
 
         let res = document.querySelector('#education_block');
         res.innerHTML = '';
-        res.innerHTML += `<p>${datos.description}</p>`
+        res.innerHTML += `<p>${datos[0].description}</p>`
     
     }
 }

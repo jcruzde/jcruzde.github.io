@@ -10,9 +10,11 @@ xhttp.onreadystatechange = function (){
         res.innerHTML = '';
         for(let item of datos){
             res.innerHTML += `
+                <div class="resume-item">
                 <h4>${item.titulo}</h4>
-                <h5>${item.artista}</h5>
-            
+                <h5>${item.startDate} - ${item.endDate}}</h5>
+                <p><em>${item.institution}</em></p>
+                 </div>
             `
         }
     

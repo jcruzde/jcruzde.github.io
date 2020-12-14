@@ -1,10 +1,14 @@
 [
     {
-        "titulo": "Burlesque",
-        "artista": "Bob Dylan"
+        "titulo": "Teleco y ADE",
+        "startDate": "2014",
+        "endDate": "2020",
+        "institution": "Universidad Rey Juan Carlos"
     },
     {
-        "titulo": "Hola",
-        "artista": "Juan Antonio"
+        "titulo": "Hospitality",
+        "startDate": "2019",
+        "endDate": "2020",
+        "institution": "California, Riverside"
     }
 ]

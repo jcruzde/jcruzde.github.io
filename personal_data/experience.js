@@ -15,7 +15,7 @@ xhttp.onreadystatechange = function (){
                 <p><em>${item.company}</em></p>
                 <ul>
                   <li>${item.description}</li>
-                  <img style="border-radius: 30px;" src="http://drive.google.com/uc?export=view&id={{experience.skills}}" width="300" height="200">
+                  <img style="border-radius: 30px;" src="/assets/img/experience/${item.image}" width="300" height="200">
                 </ul>
                 </div>
             `

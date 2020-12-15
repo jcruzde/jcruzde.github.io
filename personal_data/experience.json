@@ -1,0 +1,30 @@
+[
+    {
+        "titulo": "IT CONSULTANT INTERNSHIP",
+        "startDate": "Feb 2020",
+        "endDate": "Dec 2020",
+        "institution": "Red Eléctrica Infraestructuras de Telecomunicación (Madrid, Spain)",
+        "description": "Support in the development of new commercial products related to optical fiber, 5G and DWDM, customer management and projects monitoring."
+    },
+    {
+        "titulo": "BACKEND DEVELOPER",
+        "startDate": "Feb 200",
+        "endDate": "Nov 2020",
+        "institution": "Kibotics", 
+        "description": "Developing new functions for the API of a web application using JavaScript, TensorFlowjs, OpenCVjs, A-Frame, Blender, HTML, CSS and WebWorkers."
+    },
+    {
+        "titulo": "AUDIOVISUAL SYSTEMS TECHNICIAN",
+        "startDate": "Jan 2016",
+        "endDate": "Jan 2018",
+        "institution": "Audiovisuals Beamer S.L (Madrid, Spain)",
+        "description": "Audiovisual equipment installation and configuration in congresses and events."
+    },
+    {
+        "titulo": "INTERNATIONAL COLLEGE PROGRAM",
+        "startDate": "May 2019",
+        "endDate": "Jan 2020",
+        "institution": "Walt Disney World (Orlando FL, USA)",
+        "description": "Customer service, ticketing and IT systems control, cash handing, English-Spanish translation, audience flow monitoring."
+    }
+]

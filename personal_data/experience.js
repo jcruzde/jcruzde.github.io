@@ -14,7 +14,7 @@ xhttp.onreadystatechange = function (){
                 <h5>${item.startDate} - ${item.endDate}</h5>
                 <p><em>${item.company}</em></p>
                 <ul>
-                  <li>${item.company}</li>
+                  <li>${item.description}</li>
                   <--! <img style="border-radius: 30px;" src="http://drive.google.com/uc?export=view&id={{experience.skills}}" width="300" height="200"> -->
                 </ul>
                 </div>

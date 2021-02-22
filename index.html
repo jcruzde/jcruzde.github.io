@@ -74,13 +74,6 @@
       <p>I'm <span class="typed" data-typed-items="
         Telecommunication Engineer, IT Consultant, Business developer, Web developer, passionate about technology!
       "></span></p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -92,7 +85,9 @@
 
         <div class="section-title">
           <h2>About me</h2>
-          <div id="description_block"></div>
+          <div id="description_block">
+            My Description.
+          </div>
         </div>
       </div>
     </section><!-- End About Section -->
@@ -107,9 +102,21 @@
 
         <div id="education_block">
           <div class="resume-item">
-            <h4>DOUBLE DEGREE IN TELECOMMUNICATION SYSTEMS ENGINEERING AND BUSINESS MANAGEMENT</h4>
+            <h4>UNIVERSITY DEGREE IN TELECOMMUNICATION SYSTEMS ENGINEERING</h4>
             <h5>2014 - 2020</h5>
             <p><em>Universidad Rey Juan Carlos (Madrid, Spain)</em></p>
+          </div>
+
+          <div class="resume-item">
+            <h4>UNIVERSITY DEGREE IN BUSINESS MANAGEMENT</h4>
+            <h5>2014 - 2020</h5>
+            <p><em>Universidad Rey Juan Carlos (Madrid, Spain)</em></p>
+          </div>
+
+          <div class="resume-item">
+            <h4>MASTER IN DECISION MAKING AND INNOVATION</h4>
+            <h5>2020 - 2020</h5>
+            <p><em>Universidad de Alcalá, Madrid (Spain)</em></p>
           </div>
 
           <div class="resume-item">
@@ -130,7 +137,51 @@
           <h2>Work Experience</h2>
         </div>
 
-        <div id="experience_block"></div>
+        <div id="experience_block">
+          <div class="resume-item">
+            <h4>IT CONSULTANT INTERNSHIP</h4>
+            <h5>Feb 2020 - Dec 2020</h5>
+            <p><em>Red Eléctrica Infraestructuras de Telecomunicación (Madrid, Spain)</em></p>
+            <ul>
+              <li>Support in the development of new commercial products related to optical fiber, 5G and DWDM, customer management and projects monitoring.</li>
+              <img style="border-radius: 30px;" src="./assets/img/experience/ree.jpg" width="300" height="200">
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <h4>BACKEND DEVELOPER</h4>
+            <h5>Feb 2020- Nov 2020</h5>
+            <p><em>Kibotics</em></p>
+            <ul>
+              <li>Developing new functions for the API of a web application using JavaScript, TensorFlowjs, OpenCVjs, A-Frame, Blender, HTML, CSS and WebWorkers.</li>
+              <img style="border-radius: 30px;" src="./assets/img/experience/backend.png" width="300" height="200">
+            </ul>
+          </div>  
+            
+          <div class="resume-item">
+            <h4>AUDIOVISUAL SYSTEMS TECHNICIAN</h4>
+            <h5>Jan 2016- Jan 2018</h5>
+            <p><em>Audiovisuals Beamer S.L (Madrid, Spain)</em></p>
+            <ul>
+              <li>Audiovisual equipment installation and configuration in congresses and events.</li>
+              <img style="border-radius: 30px;" src="./assets/img/experience/technician.jpg" width="300" height="200">
+            </ul>
+          </div>  
+
+          <div class="resume-item">
+            <h4>INTERNATIONAL COLLEGE PROGRAM</h4>
+            <h5>May 2019 - Jan 2020</h5>
+            <p><em>Walt Disney World (Orlando FL, USA)</em></p>
+            <ul>
+              <li>Customer service, ticketing and IT systems control, cash handing, English-Spanish translation, audience flow monitoring.</li>
+              <img style="border-radius: 30px;" src="./assets/img/experience/disney.jpg" width="300" height="200">
+            </ul>
+          </div>            
+
+
+
+
+        </div>
         
       </div>
     </section><!-- End Experience Section -->
@@ -143,65 +194,8 @@
           <h2>Contact</h2>
         </div>
 
-        <div class="row mt-1">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
+        <div class="section-title">
+        <a href="http://www.linkedin.com/in/jorge-cruz-de-la-haza"><img src="./assets/img/linkedIn_logo_initials.png" width=8% height=8%/></a>
       </div>
     </section><!-- End Contact Section -->
 
@@ -210,25 +204,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Brandon Johnson</h3>
+      <h3>Jorge Cruz de la Haza</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </footer><!-- End Footer -->
 
